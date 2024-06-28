@@ -1,0 +1,23 @@
+v 4
+file . "me.vhdl" "e587ef6894bfc56634c81c6d327882b7a63e8d0d" "20240316211222.033":
+  entity me at 4( 31) + 0 on 441;
+  architecture doit of me at 15( 232) + 0 on 442;
+file . "fPE.vhdl" "3f999ce813186691e6b4f12d955db74b4182974c" "20240316211222.014":
+  entity fpe at 4( 54) + 0 on 437;
+  architecture calc of fpe at 15( 269) + 0 on 438;
+file . "bancoRegs.vhdl" "d996c3aa9ccc202744c8b2633e24262579b04fbc" "20240316211221.989":
+  entity bancoreg3b at 3( 27) + 0 on 429;
+  architecture storage of bancoreg3b at 14( 256) + 0 on 430;
+file . "fS.vhdl" "e6b8c6dc2a6f9faec759a199efaba84cb300cfc2" "20240316211222.031":
+  entity fs at 4( 45) + 0 on 439;
+  architecture calc of fs at 14( 225) + 0 on 440;
+file . "ffjk_tipoD.vhdl" "d4b412e6b4e0db48c84417e421e401565e2bf8dd" "20240316211222.012":
+  entity ffjk at 2( 70) + 0 on 431;
+  architecture latch of ffjk at 14( 316) + 0 on 432;
+  entity ffd at 72( 2349) + 0 on 433;
+  architecture latch of ffd at 84( 2594) + 0 on 434;
+  entity fft at 107( 3127) + 0 on 435;
+  architecture latch of fft at 119( 3372) + 0 on 436;
+file . "tb_me.vhdl" "79be379362198814e487a16130df99a71d1afa9a" "20240316211222.036":
+  entity tb_me at 3( 70) + 0 on 443;
+  architecture tb of tb_me at 9( 143) + 0 on 444;
